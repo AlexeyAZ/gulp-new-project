@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: border-box;
+  }
+}
+
+html,
+body {
+  font-size: 14px;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: $TTNorms;
+  font-weight: 300;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  min-width: $min-width;
+
+  @include media(w768) {
+    font-size: 16px;
+    line-height: 23px;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.icon-icon_100 {
+  fill: black;
+}
+
+.index {
+  &__form-fields {
+    @include media(w768) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__form-fields-item {
+    @include media(w768) {
+      width: 49%;
+    }
+  }
+}

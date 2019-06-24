@@ -1,0 +1,79 @@
+.mb {
+  &-0 {
+    margin-bottom: 0;
+  }
+}
+
+.fw {
+
+  &-bold {
+    font-weight: bold;
+  }
+  
+  &-med {
+    font-weight: 500;
+  }
+
+  &-reg {
+    font-weight: normal;
+  }
+
+  &-light {
+    font-weight: 300;
+  }
+
+  &-thin {
+    font-weight: 100;
+  }
+}
+
+.ta {
+  &-center {
+	  text-align: center;
+  }
+}
+
+.tt {
+  
+  &-uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.d {
+
+  &-block {
+    display: block;
+  }
+  
+  &-inline-block {
+    display: inline-block;
+  }
+}
+
+.vertical-align {
+
+  &-middle {
+    vertical-align: middle;
+  }
+}
+
+.color {
+  &-white {
+    color: white;
+  }
+}
+
+.bg {
+  &-black {
+    background-color: $black;
+  }
+  &-white {
+    background-color: white;
+  }
+}
+
+.disable-actions {
+  user-select: none;
+  pointer-events: none;
+}

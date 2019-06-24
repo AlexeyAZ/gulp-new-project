@@ -1,0 +1,17 @@
+extends layouts/_default-layout.pug
+
+include ./components/section.pug
+include ./components/container.pug
+include ./components/header.pug
+include ./components/button.pug
+include ./components/input.pug
+include ./components/icon.pug
+include ./components/popup.pug
+
+block content
+  h1.
+    Index page
+  p.
+    Icon from sprite example
+  +icon('rocket')
+

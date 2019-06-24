@@ -1,0 +1,18 @@
+doctype html
+
+include ../common/variables.pug
+
+block init
+block vars
+
+html
+  head
+    meta(charset="utf-8")
+    meta(name="description", content="")
+    meta(name="viewport", content="width=device-width, initial-scale=1, minimal-ui")
+    title #{title}
+    link(href="img/favicon.png", rel="icon", type="image/png", sizes="16x16")
+    link(href="styles/main.css?v=" + Date.now(), rel="stylesheet")
+  body
+    block content
+    script(src="scripts/app.js?v=" + Date.now())

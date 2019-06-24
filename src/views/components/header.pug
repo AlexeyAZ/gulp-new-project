@@ -1,0 +1,11 @@
+mixin social
+  .header__social&attributes(attributes)
+    a(href=social.email.href).header__social-link
+      +icon('icon_email').header__icon
+
+mixin header()
+  header.header&attributes(attributes)
+    +container.header__container
+      a(href='./').header__logo
+        img(src="./img/logo.svg").header__logo-icon
+      +social.header__social_mobile

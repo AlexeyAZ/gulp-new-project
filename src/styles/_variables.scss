@@ -1,0 +1,25 @@
+$trans: all 0.3s ease;
+
+$side-padding-mobile: 24px;
+$side-padding-tablet: 54px;
+
+$max-width-value: 1530px;
+$max-width-mobile: calc(#{$max-width-value} + 2 * #{$side-padding-mobile});
+$max-width-tablet: calc(#{$max-width-value} + 2 * #{$side-padding-tablet});
+$min-width: 320px;
+
+$blue: #3343D5;
+
+$black: #0E0E0E;
+
+$gray-dark: #828282;
+$gray: #BDBDBD;
+$gray-light: #E0E0E0;
+$gray-lighten: #E8E8E8;
+
+$green: #0DA950;
+
+$red: #A90D0D;
+
+$Montserrat: 'Montserrat', Arial, Helvetica, sans-serif;
+$TTNorms: TTNorms, Arial, Helvetica, sans-serif;

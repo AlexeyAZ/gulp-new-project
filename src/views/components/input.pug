@@ -1,0 +1,6 @@
+mixin input(type)
+  .input
+    if type === 'area'
+      textarea.input__field&attributes(attributes)
+    else
+      input.input__field&attributes(attributes)

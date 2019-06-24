@@ -1,0 +1,7 @@
+mixin button(options = {tag: 'a')
+  -
+    const {tag} = options;
+    const buttonTag = tag ? tag : 'a';
+  #{buttonTag}.button&attributes(attributes)
+    span.button__inner
+      block
