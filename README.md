@@ -15,3 +15,6 @@
 1. npm install
 2. gulp
 
+## TODO
+1. Добавить поддержку less
+2. Порефакторить eslint
